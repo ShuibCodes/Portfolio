@@ -31,22 +31,22 @@ code {
 }
 
 
-.app {
+.cold{
   background-image: url('./assets/cold-bg.jpg');
    background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  transition: 0.4 ease;
+  transition: ease ease ;
 
 } 
 
-/* .app.warm {
+.warm {
   background-image: url('./assets/warm-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 
-} */
+}
 
 main {
   min-height: 100vh;
@@ -70,9 +70,11 @@ main {
 
 .search-box .search-bar {
   display: block;
-  width: 100rem;
+  width: 70rem;
   padding: 15px;
   margin-left: 8.5rem;
+  position: relative;
+  top: -4rem;
   
 
   appearance: none;
@@ -96,6 +98,10 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+.location-box{
+  position: relative;
+  top: -3rem;
+}
 .location-box .location {
   color: #FFF;
   font-size: 32px;
