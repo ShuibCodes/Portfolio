@@ -28,12 +28,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'webdev.jpg',
+    title: 'Web Dev Quiz',
+    info:
+      'My First Project. A vanilla JS Web App that tests your knowledge on basic concepts of Javascript and CSS ',
+    info2:
+      'This project strengthened my knoweldge of DOM Manipulation and the fundedmentals of JasvaScript and CSS.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ShuibCodes/webdevquiz', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
