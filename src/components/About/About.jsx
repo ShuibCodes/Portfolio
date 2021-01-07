@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "Learning to code has been a difficult and artious journey, however, I have never done something so rewarding. Now, I feel at a point where I can build multipage websites with my HTML & CSS skills. I have also spent time learning and practicing JavaScript (including working with API's), functional programming and object oriented programming."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am aware this is a fast growing, modern industry. Therefore, I made sure to learn and use frameworks and tools such as React, Gatsby, SASS and most recently, styled componenets in order to effeciently build websites using the latest tools. '}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'I am aware this is a fast growing, modern industry. Therefore, I made sure to learn and use frameworks and tools such as React, Gatsby, SASS and most recently, styled componenets in order to effeciently build websites using the latest tools. '}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
