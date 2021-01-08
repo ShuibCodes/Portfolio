@@ -1,16 +1,26 @@
 import React from 'react';
+import { DiCss3Full, DiHtml5, DiReact, DiSass } from 'react-icons/di';
+import { SiJavascript, SiStyledComponents } from 'react-icons/si';
 
-import { Container } from 'react-bootstrap';
-import { DiCss3Full } from 'react-icons/di';
+import { IconContext } from 'react-icons';
 import Title from '../Title/Title';
+import './Styles.css';
 
 const Skills = () => {
   return (
     <>
-      <Container>
-        <Title title="Skills" />
-        <DiCss3Full />
-      </Container>
+      <Title title="Skills" />
+
+      <IconContext.Provider value={{ style: { fontSize: '20em', padding: '3rem' } }}>
+        <div>
+          <DiHtml5 />
+          <DiCss3Full />
+          <SiJavascript />
+          <DiReact />
+          <SiStyledComponents />
+          <DiSass />
+        </div>
+      </IconContext.Provider>
     </>
   );
 };

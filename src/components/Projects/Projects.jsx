@@ -36,8 +36,8 @@ const Projects = () => {
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
-                    duration={1000}
-                    delay={500}
+                    duration={200}
+                    delay={100}
                     distance="30px"
                   >
                     <div className="project-wrapper__text">

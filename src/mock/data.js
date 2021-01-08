@@ -28,32 +28,45 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'dollabank.jpg',
+    title: 'DollaBank',
+    info: 'A REACT website for a fake bank using react router, hooks and styled-components. ',
+    info2:
+      'I decided to use styled components for this project to make the codebase clean. This allowed me to focus on making responsive components with React. ',
+    url: 'https://dollabank.netlify.app/',
+    repo: 'https://github.com/ShuibCodes/bankwebsite', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'wingchun.jpg',
+    title: 'Wing-Chun Academy',
+    info:
+      "A responsive Gatsby website using Contentful CMS and Sass CSS. I'm using Contentful CMS to manage the blog. I used Netlify to deploy and host the site. ",
+    info2:
+      'The contact form is using Getform API as a backend and the there is also a map from Google-Maps API.',
+    url: 'https://wing-chun-academy.netlify.app/',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'weatherapp.jpg',
+    title: 'Weather App',
+    info: 'this is a responsive weather app made with React using open-weather API ',
+    info2:
+      "This is my first project working with an API, I intend to use API's more as I dive into learning backend in the near future.",
+    url: 'https://shuibcodes.github.io/WeatherApp/',
+    repo: 'https://github.com/ShuibCodes/WeatherApp', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'webdev.jpg',
     title: 'Web Dev Quiz',
     info:
       'My First Project. A vanilla JS Web App that tests your knowledge on basic concepts of Javascript and CSS ',
     info2:
-      'This project strengthened my knoweldge of DOM Manipulation and the fundedmentals of JasvaScript and CSS.',
+      'This project strengthened my knoweldge of DOM Manipulation and the fundedmentals of JasvaScript and CSS. *Live Site Coming Soon*',
     url: '',
     repo: 'https://github.com/ShuibCodes/webdevquiz', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
@@ -69,28 +82,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
+      name: '',
+      url: 'https://www.instagram.com/__shuib__/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ShuibCodes',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
