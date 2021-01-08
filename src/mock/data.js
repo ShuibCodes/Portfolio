@@ -30,7 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'dollabank.jpg',
     title: 'DollaBank',
-    info: 'A REACT website for a fake bank using react router, hooks and styled-components. ',
+    info:
+      'A REACT website for a fake bank using react router, hooks and styled-components. I also added a contact form  with GetForm as a backend. ',
     info2:
       'I decided to use styled components for this project to make the codebase clean. This allowed me to focus on making responsive components with React. ',
     url: 'https://dollabank.netlify.app/',
