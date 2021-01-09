@@ -45,10 +45,7 @@ const About = () => {
                   {paragraphTwo ||
                     'I am aware this is a fast growing, modern industry. Therefore, I made sure to learn and use frameworks and tools such as React, Gatsby, SASS and most recently, styled componenets in order to effeciently build websites using the latest tools. '}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree ||
-                    'I am aware this is a fast growing, modern industry. Therefore, I made sure to learn and use frameworks and tools such as React, Gatsby, SASS and most recently, styled componenets in order to effeciently build websites using the latest tools. '}
-                </p>
+               
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
