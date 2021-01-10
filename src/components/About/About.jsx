@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    "I am a developer because I'm inspired to be a better me today than I was yesterday. Put simply, I love to learn ay the idea of beingnd these projects below are a great example of that"}
+                    "I am a developer because I'm inspired to be a better me today than I was yesterday. Put simply, I love to learn and these projects below are a great example of that"}
                 </p>
 
                 {resume && (
