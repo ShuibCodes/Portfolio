@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'Wing-Chun Academy',
     info:
       "A responsive Gatsby website using Contentful CMS and Sass CSS. I'm using Contentful CMS to manage the blog. I used Netlify to deploy and host the site. ",
-    info2: 'The contact page is using Google Maps API for the map.',
+    info2: '',
     url: 'https://wingchunacademy.netlify.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
