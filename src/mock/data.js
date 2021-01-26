@@ -68,6 +68,15 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/ShuibCodes/webdevquiz', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'marwa.jpg',
+    title: 'Marwa Travels',
+    info: 'A freelacnce project. A Portfolio website for a professional travel photographer',
+    info2: '*Live Site Coming Soon*',
+    url: '',
+    repo: 'https://github.com/ShuibCodes/Photography-Site', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
