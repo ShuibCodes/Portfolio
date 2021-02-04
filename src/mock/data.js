@@ -30,8 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'dollabank.jpg',
     title: 'DollaBank',
-    info:
-      'A REACT website for a fake bank using react router, hooks and styled-components. I also added a contact form  with GetForm as a backend. ',
+    info: 'A REACT website for a fake bank using react router, hooks and styled-components. ',
     info2:
       'I decided to use styled components for this project to make the codebase clean. This allowed me to focus on making responsive components with React. ',
     url: 'https://dollabank.netlify.app/',
@@ -57,22 +56,22 @@ export const projectsData = [
     url: 'https://shuibcodes.github.io/WeatherApp/',
     repo: 'https://github.com/ShuibCodes/WeatherApp', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'webdev.jpg',
-    title: 'Web Dev Quiz',
-    info:
-      'My First Project. A vanilla JS Web App that tests your knowledge on basic concepts of Javascript and CSS ',
-    info2:
-      'This project strengthened my knoweldge of DOM Manipulation and the fundedmentals of JasvaScript and CSS. *Live Site Coming Soon*',
-    url: '',
-    repo: 'https://github.com/ShuibCodes/webdevquiz', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'webdev.jpg',
+  //   title: 'Web Dev Quiz',
+  //   info:
+  //     'My First Project. A vanilla JS Web App that tests your knowledge on basic concepts of Javascript and CSS ',
+  //   info2:
+  //     'This project strengthened my knoweldge of DOM Manipulation and the fundedmentals of JasvaScript and CSS. *Live Site Coming Soon*',
+  //   url: '',
+  //   repo: 'https://github.com/ShuibCodes/webdevquiz', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'marwa.jpg',
     title: 'Marwa Travels',
-    info: 'A freelacnce project. A Portfolio website for a professional travel photographer.',
+    info: 'A freelance project. A Portfolio website for a professional travel photographer.',
     info2: '*Live Site Coming Soon*',
     url: '',
     repo: 'https://github.com/ShuibCodes/Photography-Site', // if no repo, the button will not show up
