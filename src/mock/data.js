@@ -44,7 +44,7 @@ export const projectsData = [
       "A responsive Gatsby website using Contentful CMS and Sass CSS. I'm using Contentful CMS to manage the blog. I used Netlify to deploy and host the site. ",
     info2:
       'The Contact page also includes a contact form using FormSpree and custom CSS as well as a Map using the Google Maps API.',
-    url: 'https://wingchunacademy.netlify.app/',
+    url: 'https://wing-chun-academy.netlify.app/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
