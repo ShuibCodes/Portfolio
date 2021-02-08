@@ -83,7 +83,8 @@ export const projectsData = [
     title: 'Pomodoro App',
     info:
       'The Pomodoro technique is a very popular focus method. I use it during my coding sessions and its helped me a lot',
-    info2: 'Simple add a task, then start the timer.Focus for 25 minutes without any distractions.',
+    info2:
+      'I built this web app to brush up on my React Hooks skills. I aim to add more features soon including local storage and mobile responsiveness',
     url: 'https://pomodoro-webapp.netlify.app/',
     repo: 'https://github.com/ShuibCodes/Pomodoro-App', // if no repo, the button will not show up
   },
