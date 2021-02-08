@@ -77,6 +77,16 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/ShuibCodes/Photography-Site', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'Pomodoro.jpg',
+    title: 'Pomodoro App',
+    info:
+      'The Pomodoro technique is a very popular focus method. I use it during my coding sessions and its helped me a lot',
+    info2: 'Simple add a task, then start the timer.Focus for 25 minutes without any distractions.',
+    url: 'https://pomodoro-webapp.netlify.app/',
+    repo: 'https://github.com/ShuibCodes/Pomodoro-App', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
