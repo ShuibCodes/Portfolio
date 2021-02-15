@@ -88,6 +88,15 @@ export const projectsData = [
     url: 'https://pomodoro-webapp.netlify.app/',
     repo: 'https://github.com/ShuibCodes/Pomodoro-App', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'quiz-app.png',
+    title: 'Web Dev Quiz',
+    info:
+      'My first project. A simple vanilla JS quiz app , test your web dev knowledge with this interactive quiz.',
+    url: 'https://web-dev-quiz.netlify.app/',
+    repo: 'https://github.com/ShuibCodes/webdevquiz', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
