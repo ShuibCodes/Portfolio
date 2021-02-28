@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    "Learning to code has been a difficult and ardious journey, however, I have never done something so rewarding. Now, I feel at a point where I can build multipage websites with my HTML & CSS skills. I have also spent time learning and practicing JavaScript (including working with API's), functional programming and object oriented programming."}
+                    "Learning to code has been a difficult and arduous journey, however, I have never done something so rewarding. Now, I feel at a point where I can build multipage websites with my HTML & CSS skills. I have also spent time learning and practicing JavaScript (including working with API's), functional programming and object oriented programming."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
