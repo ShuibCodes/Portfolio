@@ -59,11 +59,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'marwa.jpg',
-    title: 'Marwa Travels',
-    info: 'A freelance project. A Portfolio website for a professional travel photographer.',
-    info2: '*Live Site Coming Soon*',
-    url: '',
+    img: 'travel-sudan.png',
+    title: 'Travelling Sudannia',
+    info:
+      'A freelance project. A Portfolio website for a professional travel photographer. The project is still in production but here is a live prototype',
+    info2: 'The images are not all optimized yet',
+    url: 'https://travelling-sudannia.netlify.app',
     repo: 'https://github.com/ShuibCodes/Photography-Site', // if no repo, the button will not show up
   },
   {
