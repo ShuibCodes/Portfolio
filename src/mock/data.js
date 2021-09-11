@@ -62,7 +62,7 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'dollabank.jpg',
+    img: 'blog.png',
     title: 'ShuaybCodes',
     info: "A blog website I update every week with insightful posts related to productivity and lifestyle",
     info2:
