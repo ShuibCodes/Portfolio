@@ -62,6 +62,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
+                          style={{ position: 'relative', right: '27px' }}
                           className="cta-btn text-color-main"
                           href={repo}
                         >

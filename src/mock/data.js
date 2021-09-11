@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
@@ -38,15 +39,40 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'wingchun.jpg',
-    title: 'Wing-Chun Academy',
-    info:
-      "A responsive Gatsby website using Contentful CMS and Sass CSS. I'm using Contentful CMS to manage the blog. I used Netlify to deploy and host the site. ",
+    img: 'company.png',
+    title: 'Nutrition Integrated',
+    info: 'My current project at work - im rebuilding the corporate website and integrating a blog section as well as custom chart animation using sample data from a Postgres database',
     info2:
-      'The Contact page also includes a contact form using FormSpree and custom CSS as well as a Map using the Google Maps API.',
-    url: 'https://wing-chun-academy.netlify.app/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+      "I'm using Gatsby.Js, GraphQL, Contentful CMS and TailwindCSS.",
+       // if no repo, the button will not show up
+       
+       info2: '(ongoing project)'
   },
+  {
+    id: nanoid(),
+    img: 'nba.png',
+    title: 'NBA Stats Dashboard',
+    info: 'my current project at work - im rebuilding the corporate website and integrating a blog section as well as custom chart animation using sample data from a Postgres database',
+    info2:
+      "I'm using Gatsby.Js, GraphQL, Contentful CMS and TailwindCSS.",
+       // if no repo, the button will not show up
+       url: 'https://nba-dashboard.netlify.app/',
+       repo: 'https://github.com/ShuibCodes/NBA-Dashboard',
+  },
+
+  {
+    id: nanoid(),
+    img: 'dollabank.jpg',
+    title: 'ShuaybCodes',
+    info: "A blog website I update every week with insightful posts related to productivity and lifestyle",
+    info2:
+      "I'm using Gatsby.Js, GraphQL, Contentful CMS , SASS and styles components.",
+       // if no repo, the button will not show up
+       url: "https://shuaybcodes.com/",
+       repo: 'https://github.com/ShuibCodes/ShuaybCodes',
+  },
+  
+ 
   {
     id: nanoid(),
     img: 'weatherapp.jpg',
@@ -63,30 +89,10 @@ export const projectsData = [
     title: 'Travelling Sudannia',
     info:
       'A freelance project. A Portfolio website for a professional travel photographer. The project is still in production but here is a live prototype',
-    info2: 'The images are not all optimized yet',
-    url: 'https://travelling-sudannia.netlify.app',
-    repo: 'https://github.com/ShuibCodes/Photography-Site', // if no repo, the button will not show up
+    info2: '(ongoing project)',
+
   },
-  {
-    id: nanoid(),
-    img: 'Pomodoro.jpg',
-    title: 'Pomodoro App',
-    info:
-      'The Pomodoro technique is a very popular focus method. I use it during my coding sessions and its helped me a lot',
-    info2:
-      'I built this web app to brush up on my React Hooks skills. I aim to add more features soon including local storage and mobile responsiveness',
-    url: 'https://pomodoro-webapp.netlify.app/',
-    repo: 'https://github.com/ShuibCodes/Pomodoro-App', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'quiz-app.png',
-    title: 'Web Dev Quiz',
-    info:
-      'My first project. A simple vanilla JS quiz app , test your web dev knowledge with this interactive quiz.',
-    url: 'https://web-dev-quiz.netlify.app/',
-    repo: 'https://github.com/ShuibCodes/webdevquiz', // if no repo, the button will not show up
-  },
+ 
 ];
 
 // CONTACT DATA
