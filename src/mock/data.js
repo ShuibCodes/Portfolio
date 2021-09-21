@@ -75,13 +75,13 @@ export const projectsData = [
  
   {
     id: nanoid(),
-    img: 'weatherapp.jpg',
-    title: 'Weather App',
-    info: 'this is a responsive weather app made with React using open-weather API ',
-    info2:
-      "This is my first project working with an API, I intend to use API's more as I dive into learning backend in the near future.",
-    url: 'https://shuibcodes.github.io/WeatherApp/',
-    repo: 'https://github.com/ShuibCodes/WeatherApp', // if no repo, the button will not show up
+    img: 'shopify.png',
+    title: 'Shopify Clothing Site',
+    info:
+      'An ongoing project where I ustilize Shopify API and AtomizeUI to build this clothing shop website',
+    info2: '(ongoing project)',
+    url: "https://shopify-website.netlify.app/",
+    repo: 'https://github.com/ShuibCodes/E-commerce-Site',
   },
   {
     id: nanoid(),
