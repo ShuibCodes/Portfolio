@@ -43,18 +43,16 @@ export const projectsData = [
     title: 'Nutrition Integrated',
     info: 'My current project at work - im rebuilding the corporate website and integrating a blog section as well as custom chart animation using sample data from a Postgres database',
     info2:
-      "I'm using Gatsby.Js, GraphQL, Contentful CMS and TailwindCSS.",
+      "I'm using React with Gatsby.Js, GraphQL, Contentful CMS and TailwindCSS.",
        // if no repo, the button will not show up
-       
-       info2: '(ongoing project)'
+       url: 'https://nutritionintegrated.com/'
   },
   {
     id: nanoid(),
     img: 'nba.png',
     title: 'NBA Stats Dashboard',
     info: 'An NBA statistics dashboard Ive been building in my spare time. It uses an API to grab player data and im using D3.js to display this data as a series of bar charts, line charts and more. ',
-    info2:
-      "I'm using Gatsby.Js, GraphQL, Contentful CMS and TailwindCSS.",
+    info2: "",
        // if no repo, the button will not show up
        url: 'https://nba-dashboard.netlify.app/',
        repo: 'https://github.com/ShuibCodes/NBA-Dashboard',
