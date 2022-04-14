@@ -49,47 +49,28 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'nba.png',
-    title: 'NBA Stats Dashboard',
-    info: 'An NBA statistics dashboard Ive been building in my spare time. It uses an API to grab player data and im using D3.js to display this data as a series of bar charts, line charts and more. ',
-    info2: "",
+    img: 'msc.png',
+    title: 'Master Supreme Cleans',
+    info: 'A cleaning agency in London needed a website, I designed and developed it and deployed in Netlify',
+    info2: "HTML, CSS (TailwindCSS), React (Gatsby.js) and Contentful CMS",
        // if no repo, the button will not show up
-       url: 'https://nba-dashboard.netlify.app/',
-       repo: 'https://github.com/ShuibCodes/NBA-Dashboard',
+       url: 'https://www.mastersupremeclean.com/',
+       repo: 'https://github.com/ShuibCodes/MasterSupremeClean',
   },
 
   {
     id: nanoid(),
-    img: 'blog.png',
-    title: 'ShuaybCodes',
-    info: "A blog website I update every week with insightful posts related to productivity and lifestyle",
+    img: 'biyo.png',
+    title: 'Biyo.so',
+    info: "A charity website for Eas-africa. I was approached by this charity to build to design and develop a website for them.  ",
     info2:
-      "I'm using Gatsby.Js, GraphQL, Contentful CMS , SASS and styles components.",
+      "Built in HTML,CSS (Bootstrap), React + Gatsby.js",
        // if no repo, the button will not show up
-       url: "https://shuaybcodes.com/",
-       repo: 'https://github.com/ShuibCodes/ShuaybCodes',
-  },
+       url: "https://biyo.so/",
+       repo: 'https://github.com/ShuibCodes/Biyo',
+  }
   
  
-  {
-    id: nanoid(),
-    img: 'shopify.png',
-    title: 'Shopify Clothing Site',
-    info:
-      'An ongoing project where I ustilize Shopify API and AtomizeUI to build this clothing shop website',
-    info2: '(ongoing project)',
-    url: "https://shopify-website.netlify.app/",
-    repo: 'https://github.com/ShuibCodes/E-commerce-Site',
-  },
-  {
-    id: nanoid(),
-    img: 'travel-sudan.png',
-    title: 'Travelling Sudannia',
-    info:
-      'A freelance project. A Portfolio website for a professional travel photographer. The project is still in production but here is a live prototype',
-    info2: '(ongoing project)',
-
-  },
  
 ];
 
@@ -106,12 +87,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: '',
-      url: 'https://www.instagram.com/__shuib__/',
+      url: 'https://www.instagram.com/Shuayb_codes/',
     },
     {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/ShuibCodes',
+    },
+    {
+      id: nanoid(),
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/shuib-abdillahi-4aba451ab/',
     },
   ],
 };

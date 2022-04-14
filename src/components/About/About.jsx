@@ -40,10 +40,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   
-                    I am a self-motivated Javascript developer with a good knowledge of ES6, CSS, API’s and React and D3.js and a host of projects to demonstrate that.Most recently I’ve been working with static site generators like Gatsby to build efficient, fast user-interfaces
+                    I am a self-motivated Javascript developer & Freelancer with a good knowledge of ES6, CSS, React and the Jamstack. I have a a host of projects to demonstrate that. Most recently I’ve been working with static site generators like Gatsby to build efficient, fast user-interfaces
                 </p>
                 
-
+               
+              
              
               </div>
             </Fade>
